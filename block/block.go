@@ -34,7 +34,7 @@ func (block *Block) Dump() {
 	fmt.Print("    Hash      : ")
 	fmt.Println(block.Hash)
 	fmt.Print("    PrevHash  : ")
-	fmt.Println(block.PrevHash[:])
+	fmt.Println(block.PrevHash)
 	fmt.Println("}")
 }
 
